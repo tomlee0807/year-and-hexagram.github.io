@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
+  <script src="static/js/script.js"></script>
+</head>
+
+<body>
+  <div class="page text-center">
+    <div class="subpage background">
+      <div class="row header">
+        <div class="col">
+          <div>
+            <h1>禪悟五行基因學</h1>
+            <p>請輸入年份：</p>
+
+            <input class="input" type="text" value="" id="search-text" />
+            <button type="button" class="btn btn-success"
+              onclick="updateHTML(document.getElementById('search-text').value);">
+              顯示對應的卦
+            </button>
+
+          </div>
+        </div>
+      </div>
+      <div id="main"> </div>
+    </div>
+  </div>
+</body>
+
+</html>
